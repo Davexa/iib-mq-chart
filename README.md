@@ -27,7 +27,7 @@ This chart deploys a single IBM MQ Advanced for Developers server (queue manager
 To install the chart with the release name `foo`:
 
 ```sh
-helm install --name foo ibm-mq --set license=accept
+helm install --name foo iib-mq --set license=accept
 ```
 
 This command accepts the [IBM MQ Advanced for Developers license](LICENSE) and the [IBM Integration Bus for Developers license](LICENSE) and deploys an IBM Integration Bus for Developers server and an MQ Advanced for Developers server on the Kubernetes cluster. The [configuration](#configuration) section lists the parameters that can be configured during installation.
