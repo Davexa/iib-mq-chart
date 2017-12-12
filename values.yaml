@@ -1,4 +1,4 @@
-license: "not accepted"
+license: "accept"
 
 image:
   # repository is the container repository to use, which must contain IBM MQ Advanced for Developers
